@@ -1,6 +1,6 @@
 FROM java:7
 
-WORKDIR /usr/src/myapp
+WORKDIR /usr/src/app
 
 RUN wget -qO- get.nextflow.io | bash \
     && mkdir bin \
