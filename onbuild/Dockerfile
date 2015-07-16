@@ -1,4 +1,4 @@
-FROM agrothberg/docker-nextflow
+FROM agrothberg/docker-nextflow:latest
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
